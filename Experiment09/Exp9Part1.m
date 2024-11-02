@@ -1,0 +1,10 @@
+C = {3.14, 'MATLAB', true; 7, [1 2 3], 'hello'};
+disp(C{1, 2});
+C{2, 3} = [4 5 6];
+disp(C{2, 3});
+student.name = 'John Doe';
+student.age = 20;
+student.GPA = 3.5;
+C{1, 1} = student;
+disp(C);
+disp(C{1, 1});
