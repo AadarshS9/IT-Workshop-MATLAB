@@ -14,6 +14,6 @@ else
             perimeter = 2*pi*radius;
             fprintf('The perimeter of a circle with radius %.2f%s is %.2f%s\n', radius, unit, perimeter,unit);
         otherwise
-            disp('Invalid measurements\n')
+            disp('Invalid option')
     end
 end
