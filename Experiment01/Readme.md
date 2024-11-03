@@ -10,4 +10,4 @@ Write a MATLAB script that:
 #### 1.2 Complex Mathematical Expressions
 Write a MATLAB script that:
 - Defines three variables x=2, y=4, and z=6.
-- Computes the value of the expression f(x,y,z)=x 2 +y 2 −z 2 +√xy and displays the result.
+- Computes the value of the expression f(x,y,z)=x^2 +y^2 −z^2 +√xy and displays the result.
