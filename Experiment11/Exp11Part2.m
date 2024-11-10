@@ -1,0 +1,10 @@
+imagepath = 'exp11picture.jfif';
+img = imread(imagepath);
+grayImage = rgb2gray(img);
+edgeImage = edge(grayImage, 'canny');
+subplot(1, 2, 1);
+imshow(img);
+title('Original Image');
+subplot(1, 2, 2);
+imshow(edgeImage);
+title('Edge-detected Image (Canny)');
